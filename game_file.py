@@ -9,7 +9,7 @@ def game(score):
     print(f"Compare A: {a['name']}, a {a['description']} from {a['country']}")
     print(art.vs)
     print(f"Against B: {b['name']}, a {b['description']} from {b['country']}")
-    guess = input("Who has more instagram followers? A or B ").lower()
+    guess = input("Who has more instagram followers? A or B: ").lower()
     if a['follower_count'] > b['follower_count']:
         answer = "a"
     else:
